@@ -6,8 +6,8 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQAWithSourcesChain
 
 def get_api_keys():
-    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY') or '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'
-    PINECONE_API_KEY = os.getenv("PINECONE_API_KEY") or 'cd1ea1ea-2eb9-4bdd-8185-8c6d8d0cf620'
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY') 
+    PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
     if not OPENAI_API_KEY or not PINECONE_API_KEY:
         raise ValueError("API keys for OpenAI and Pinecone must be set as environment variables.")
     return OPENAI_API_KEY, PINECONE_API_KEY
