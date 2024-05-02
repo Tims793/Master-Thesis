@@ -1,0 +1,348 @@
+Lecture;Topic
+Infrastruktur: Internet Netzwerke und Kommunikation ;WAS SIND NETZWERKEFFEKTE? 
+Infrastruktur: Internet Netzwerke und Kommunikation ;CASE AIRBNB 
+Infrastruktur: Internet Netzwerke und Kommunikation ;DEFINITION RECHNERNETZ 
+Infrastruktur: Internet Netzwerke und Kommunikation ;DIE ENTWICKLUNG DES INTERNETS
+Infrastruktur: Internet Netzwerke und Kommunikation ;ZIELE DER VERNETZUNG
+Infrastruktur: Internet Netzwerke und Kommunikation ;KLASSIFIKATION 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE - RINGNETZ 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE - SCHLEIFENNETZ 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE - STERNNETZ
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE - BAUMNETZ 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKTOPOLOGIE – INFORMATIONSFLUSS IN NETZEN
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZKLASSEN - GEOGRAPHISCH
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZKLASSEN - PERSONAL AREA NETWORK
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZKLASSEN - LOCAL AREA NETWORK 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZKLASSEN - METROPOLITAN AREA NETWORK
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZKLASSEN - WIDE AREA NETWORK
+Infrastruktur: Internet Netzwerke und Kommunikation ;TELEKOMNETZ: GSM (2G) – UMTS (3G) – LTE (4G) 
+Infrastruktur: Internet Netzwerke und Kommunikation ;ANWENDUNGSBEREICHE VON 5G 
+Infrastruktur: Internet Netzwerke und Kommunikation ;DATENÜBERTRAGUNGSMEDIEN
+Infrastruktur: Internet Netzwerke und Kommunikation ;NUTZERGRUPPEN: INTRANET – EXTRANET – INTERNET 
+Infrastruktur: Internet Netzwerke und Kommunikation ;GRUNDMODELL DER KOMMUNIKATION
+Infrastruktur: Internet Netzwerke und Kommunikation ;ISO/OSI SCHICHTENMODELL IM KONTEXT 
+Infrastruktur: Internet Netzwerke und Kommunikation ;ISO/OSI IM VERGLEICH ZUM TCP/IP MODELL 
+Infrastruktur: Internet Netzwerke und Kommunikation ;NETZWERKPAKETE UND DAS TCP/IP MODELL 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL - PHYSICAL LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – DATA LINK LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – PHYSICAL/DATA LINK KOPPLUNGSEINHEITEN BEI DER DATENKOMMUNIKATION
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL - NETWORK LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – NETWORK LAYER KOPPLUNGSEINHEITEN BEI DER DATENKOMMUNIKATION 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – NETWORK LAYER PROTOKOLLE DES INTERNETS - IP (INTERNET PROTOCOL) 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – NETWORK LAYER PROTOKOLLE DES INTERNETS - IP (INTERNET PROTOCOL) 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – TRANSPORT LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – SESSION LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – PRESENTATION LAYER 
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – APPLICATION LAYER
+Infrastruktur: Internet Netzwerke und Kommunikation ;TCP/IP (ISO/OSI) – SCHICHTENMODELL – APPLICATION LAYER DIENSTE DER ANWENDUNGSSCHICHT 
+Infrastruktur: Internet Netzwerke und Kommunikation ;ABKÜRZUNGEN 
+Infrastruktur: IT-Sicherheit und Datenschutz ;Einführung in die Wirtschaftsinformatik
+Infrastruktur: IT-Sicherheit und Datenschutz ;Es beginnt mit einer eigenartigen E-Mail
+Infrastruktur: IT-Sicherheit und Datenschutz ;WannaCry Attack
+Infrastruktur: IT-Sicherheit und Datenschutz ;Auszüge der WannaCry Attacke
+Infrastruktur: IT-Sicherheit und Datenschutz ;Agenda
+Infrastruktur: IT-Sicherheit und Datenschutz ;Sicherheitstechnische Grundlagen
+Infrastruktur: IT-Sicherheit und Datenschutz ;Potentielle Bedrohungen
+Infrastruktur: IT-Sicherheit und Datenschutz ;Potentielle Maßnahmen
+Infrastruktur: IT-Sicherheit und Datenschutz ;Verfahren der Kryptologie
+Infrastruktur: IT-Sicherheit und Datenschutz ;Historische Kryptographie
+Infrastruktur: IT-Sicherheit und Datenschutz ;Symmetrische Verfahren 
+Infrastruktur: IT-Sicherheit und Datenschutz ;Asymmetrische Verfahren: Verschlüsselung (I)
+Infrastruktur: IT-Sicherheit und Datenschutz ;Asymmetrische Verfahren: Signierung (I)
+Infrastruktur: IT-Sicherheit und Datenschutz ;Vergleich der Verfahren
+Infrastruktur: IT-Sicherheit und Datenschutz ;Hybride Verfahren
+Infrastruktur: IT-Sicherheit und Datenschutz ;Verschlüsselung am Beispiel „Pretty Good Privacy“
+Infrastruktur: IT-Sicherheit und Datenschutz ;Beispiel: Aufgaben einer Zertifizierungsstelle (CA)
+Infrastruktur: IT-Sicherheit und Datenschutz ;Sicherung von Rechnernetzen - Firewall
+Infrastruktur: IT-Sicherheit und Datenschutz ;Firewall-Typen
+Infrastruktur: IT-Sicherheit und Datenschutz ;Firewall-Konzept (I): Paketfilterung
+Infrastruktur: IT-Sicherheit und Datenschutz ;Sicherheitsziele
+Infrastruktur: IT-Sicherheit und Datenschutz ;Erfüllung der Anforderungen an Kommunikation
+Infrastruktur: IT-Sicherheit und Datenschutz ;Digitalisierung: Blockchain / Bitcoin
+Infrastruktur: IT-Sicherheit und Datenschutz ;Wie funktioniert Blockchain?
+Infrastruktur: IT-Sicherheit und Datenschutz ;Was ist Blockchain?
+Infrastruktur: IT-Sicherheit und Datenschutz ;Agenda
+Infrastruktur: IT-Sicherheit und Datenschutz ;Begriffsdefinitionen
+Infrastruktur: IT-Sicherheit und Datenschutz ;Rechtliche Bestimmungen zum Datenschutz
+Infrastruktur: IT-Sicherheit und Datenschutz ;Wesentliche Neuerungen durch DSGVO
+Infrastruktur: IT-Sicherheit und Datenschutz ;Fünf Beispiele von Cyberkriminalität (I)
+Infrastruktur: IT-Sicherheit und Datenschutz ;Fünf Beispiele von Cyberkriminalität (II)
+Infrastruktur: IT-Sicherheit und Datenschutz ;Data Breach Notification Duty
+Infrastruktur: IT-Sicherheit und Datenschutz ;Auswahl von Passwörtern
+Infrastruktur: IT-Sicherheit und Datenschutz ;Abwehr von Social Engineering
+Infrastruktur: IT-Sicherheit und Datenschutz ;Rolle von GPT-Technologie
+Integration: Datenmodellierung ;DATENGETRIEBENE GESCHÄFTSENTSCHEIDUNGEN
+Integration: Datenmodellierung ;BIG DATA EXECUTIVE SURVEY
+Integration: Datenmodellierung ;DATENBANKSYSTEM
+Integration: Datenmodellierung ;BEISPIELE FÜR RELEVANTE SYSTEME
+Integration: Datenmodellierung ;TYPEN VON DATENBANKEN
+Integration: Datenmodellierung ;ER MODELLE
+Integration: Datenmodellierung ;GRUNDLEGENDE IDEE
+Integration: Datenmodellierung ;ENTITÄTSTYPEN
+Integration: Datenmodellierung ;ATTRIBUTE
+Integration: Datenmodellierung ;ENTITÄTSTYP VS. ENTITÄT
+Integration: Datenmodellierung ;SCHLÜSSELATTRIBUTE / PRIMÄRSCHLÜSSEL
+Integration: Datenmodellierung ;BEZIEHUNGEN ZWISCHEN ENTITÄTSTYPEN
+Integration: Datenmodellierung ;AUSPRÄGUNGEN VON BEZIEHUNGEN
+Integration: Datenmodellierung ;UNTERSCHIEDLICHE MODELLIERUNGSSPRACHEN
+Integration: Datenmodellierung ;CHEN NOTATION
+Integration: Datenmodellierung ;(MIN MAX) NOTATION
+Integration: Datenmodellierung ;CROW‘S FOOT NOTATION
+Integration: Datenmodellierung ;ENTITÄTSTYPEN IN CROW‘S FOOT NOTATION
+Integration: Datenmodellierung ;BEZIEHUNGEN IN DER CROW‘S FOOT NOTATION
+Integration: Datenmodellierung ;BEISPIEL DATENMODELLIERUNG
+Integration: Datenmodellierung ;SCHRITT 1: IDENTIFIZIERUNG DER ENTITÄTSTYPEN
+Integration: Datenmodellierung ;SCHRITT 2: IDENTIFIZIERUNG DER ATTRIBUTE
+Integration: Datenmodellierung ;SCHRITT 3: BESTIMMUNG DER PRIMÄRSCHLÜSSEL
+Integration: Datenmodellierung ;SCHRITT 4: IDENTIFIZIERUNG DER BEZIEHUNGEN
+Integration: Datenmodellierung ;ER-MODELL FAHRRADHÄNDLER
+Integration: Datenmodellierung ;VORSCHAU IMPLEMENTIERUNG UND FREMDSCHLÜSSEL
+Integration: Datenmodellierung ;MOTIVATION – BEISPIELSRELATION FÜR EINE NICHT-NORMALISIERTE DATENBANK
+Integration: Datenmodellierung ;NORMALISIERUNG
+Integration: Datenmodellierung ;ERSTE NORMALFORM (1NF)
+Integration: Datenmodellierung ;ZWEITE NORMALFORM (2NF)
+Integration: Datenmodellierung ;DRITTE NORMALFORM (3NF)
+Integration: Data Definition Language ;Statische und dynamische Webseiten
+Integration: Data Definition Language ;ER Diagramm – DB - Webseite
+Integration: Data Definition Language ;Datenbankmanagementsystem
+Integration: Data Definition Language ;Datenbanksystem (DBS)
+Integration: Data Definition Language ;Structured Query Language (SQL)
+Integration: Data Definition Language ;Von einem ER-Modell zu einer Datenbank
+Integration: Data Definition Language ;Erstellen einer Tabelle
+Integration: Data Definition Language ;Datentypen in SQL (Auszug)
+Integration: Data Definition Language ;Erstellen von Beziehungen (1:N)
+Integration: Data Definition Language ;Fremdschlüssel
+Integration: Data Definition Language ;Referentielle Integrität
+Integration: Data Definition Language ;Erstellen von Beziehungen (N:M)
+Integration: Data Definition Language ;Mögliche Klausurfrage
+Integration: Data Definition Language ;Einführung in die Wirtschaftsinformatik
+Integration: Data Definition Language ;Basis der folgenden SQL-Abfragen
+Integration: Data Definition Language ;SQL Kommandos
+Integration: Data Definition Language ;Einfügen von Daten
+Integration: Data Definition Language ;Löschen von Daten
+Integration: Data Definition Language ;Tabelle Kunde
+Integration: Data Definition Language ;Ändern von Daten
+Integration: Data Definition Language ;Tabelle Produkt
+Integration: Data Manipulation Language und Query Language ;DIE DATENBANK EINES FAHRRADHÄNDLERS
+Integration: Data Manipulation Language und Query Language ;ER DIAGRAMME – SQL DDL
+Integration: Data Manipulation Language und Query Language ;VON ERP ZU BIG DATA
+Integration: Data Manipulation Language und Query Language ;BIG DATA – GROSSEDATENMENGENN
+Integration: Data Manipulation Language und Query Language ;DIE WESENTLICHEN CHARAKTERISTIKA (V‘S) VON BIG DATA
+Integration: Data Manipulation Language und Query Language ;BIG DATA – DIE CHARAKTERISTIKA
+Integration: Data Manipulation Language und Query Language ;SQL-COMMANDS
+Integration: Data Manipulation Language und Query Language ;ABFRAGE VON DATEN AUS EINER TABELLE – SELECT, FROM
+Integration: Data Manipulation Language und Query Language ;BEDINGUNGEN - WHERE
+Integration: Data Manipulation Language und Query Language ;PROJEKTION VS. SELEKTION
+Integration: Data Manipulation Language und Query Language ;PROJEKTION (CONT‘D)
+Integration: Data Manipulation Language und Query Language ;SELEKTION (CONT‘D)
+Integration: Data Manipulation Language und Query Language ;SQL-OPERATOREN FÜR BERECHNUNGEN UND VERGLEICHE
+Integration: Data Manipulation Language und Query Language ;SQL LOGISCHE OPERATOREN
+Integration: Data Manipulation Language und Query Language ;SORTIERUNG VON ENTITÄTEN – ORDER BY
+Integration: Data Manipulation Language und Query Language ;IN LISTE VON WERTEN SUCHEN – IN/NOT IN
+Integration: Data Manipulation Language und Query Language ;ABFRAGE NACH MUSTERN - LIKE
+Integration: Data Manipulation Language und Query Language ;AGGREGATSFUNKTIONEN
+Integration: Data Manipulation Language und Query Language ;ABFRAGE VON DATEN AUS MEHREREN TABELLEN - JOIN
+Integration: Data Manipulation Language und Query Language ;TABELLEN PRODUKT UND KATEGORIE IM KREUZPRODUKT
+Integration: Data Manipulation Language und Query Language ;GRUPPIERUNG VON DATEN – GROUP BY
+Integration: Data Manipulation Language und Query Language ;BEDINGUNG AUF SUBGRUPPEN - HAVING
+Integration: Data Manipulation Language und Query Language ;UNTERABFRAGEN
+Prozessmodellierung: BPMN ;Einführungsbeispiel: Typischer Engpass/Flaschenhals im Supermarkt?
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Express Checkout
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Nur eine Schlange @ Whole Foods
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Self-checkout @ IKEA
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Self-checkout @ ICA
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Smile To Pay
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Amazon Go
+Prozessmodellierung: BPMN ;Beispiel einer Prozessverbesserung: Amazon Dash Cart
+Prozessmodellierung: BPMN ;Funktions- vs. Prozessorganisation
+Prozessmodellierung: BPMN ;Was ist ein Geschäftsprozess?
+Prozessmodellierung: BPMN ;Geschäftsprozessmanagement (BPM)
+Prozessmodellierung: BPMN ;Welche Prozesstypen können unterschieden werden?
+Prozessmodellierung: BPMN ;Prozesslandkarte der Wiener Linien
+Prozessmodellierung: BPMN ;BPMN-Prozessmodelle
+Prozessmodellierung: BPMN ;BPMN Grundelemente
+Prozessmodellierung: BPMN ;Flusselemente – Beschreibung
+Prozessmodellierung: BPMN ;Paralleles Gateway (AND)
+Prozessmodellierung: BPMN ;Exklusives Gateway (XOR)
+Prozessmodellierung: BPMN ;Wiederholungen (Schleifen)
+Prozessmodellierung: BPMN ;Bezeichnungen (Beschriftungen Labels) der Modellelemente
+Prozessmodellierung: BPMN ;Schwimmbahnen (Swimlanes)
+Prozessmodellierung: BPMN ;Unterschied Prozess-Definition – Instanz eines Geschäftsprozesses
+Prozessmodellierung: BPMN ;Produkt- and Prozessinnovation
+Prozessmodellierung: BPMN ;Prozess Innovation: Beispiel Amazon
+Prozessmodellierung: BPMN ;Auswirkungen der Digitalisierung auf Geschäftsprozesse
+Prozessmodellierung: BPMN ;Prozess Innovation: Henn na Hotels
+Prozessmodellierung: BPMN ;Künstliche Intelligenz bei Wendy's im Drive-Thru
+Prozessmodellierung: BPMN ;Prozess Innovation: Beispiel Prinoth
+Prozessmodellierung: BPMN ;Prozessverbesserung
+Prozessmodellierung: BPMN ;„Teufelsviereck“
+Prozessmodellierung: BPMN ;Weitere Prozessverbesserungsziele?
+Prozessmodellierung: BPMN ;Heuristiken zur Prozessverbesserung
+Prozessmodellierung: BPMN ;Prozessverbesserungen – Heuristiken
+Prozessmodellierung: BPMN ;Redesign Heuristiken Beispiel: Kontrollverschiebung Richtung KundIn
+Prozessmodellierung: BPMN ;Redesign Heuristiken Beispiel: Fallbasiertes Arbeiten
+Prozessmodellierung: BPMN ;Redesign Heuristiken Beispiel: Nicht wertschöpfende Aktivitäten entfernen
+Prozessmodellierung: BPMN ;Redesign Heuristiken Beispiel: Parallelisierung
+Prozessmodellierung: BPMN ;Prozessorientierte Informationssysteme
+Prozessmodellierung: BPMN ;Geschäftsprozessmanagementsysteme: Beispiel
+Prozessmodellierung: BPMN ;Vorteile eines Geschäftsprozessmanagementsystems (BPMS)
+Prozessmodellierung: BPMN ;Beispiele für Anbieter von Geschäftsprozessmanagementsystemen
+Prozessmodellierung: BPMN ;Kennzahlenbericht für einen Prozess (Quelle: Celonis)
+Prozessmodellierung: BPMN ;Process Mining
+Prozessmodellierung: BPMN ;Warum brauchen wir Process Mining?
+Prozessmodellierung: BPMN ;Struktur eines Ereignisprotokolls (Event Logs): Minimale Anforderungen
+IT Management: IT-Prozesse IT-Projekte ;Kontext: Generelle Ziele des IS Managements
+IT Management: IT-Prozesse IT-Projekte ;Kontext: Informationsüberflutung (Information Overload)
+IT Management: IT-Prozesse IT-Projekte ;IT-Projektmanagement
+IT Management: IT-Prozesse IT-Projekte ;Von der IS-Planung zum Projekt
+IT Management: IT-Prozesse IT-Projekte ;IS-Projektportfolio: Projektübergreifende Bewertung der IS-Anträge
+IT Management: IT-Prozesse IT-Projekte ;Was ist Projektmanagement
+IT Management: IT-Prozesse IT-Projekte ;Wozu ist Planung gut? Analogie: Bau eines Hauses
+IT Management: IT-Prozesse IT-Projekte ;Magisches Dreieck des Projektmanagements
+IT Management: IT-Prozesse IT-Projekte ;Viele IT-Projekte scheitern – Einige Zahlen
+IT Management: IT-Prozesse IT-Projekte ;Wissensgebiete des Projektmanagements
+IT Management: IT-Prozesse IT-Projekte ;Was ist Terminmanagement?
+IT Management: IT-Prozesse IT-Projekte ;Gantt Diagramm (Länge der Balken entspricht der Zeitdauer)
+IT Management: IT-Prozesse IT-Projekte ;Balkendiagramme - Gantt Diagramm
+IT Management: IT-Prozesse IT-Projekte ;Unterstützung der Projektplanung durch Software
+IT Management: IT-Prozesse IT-Projekte ;Gesamter Puffer kritischer Pfad & kritischer Vorgang
+IT Management: IT-Prozesse IT-Projekte ;Der Software-Entwicklungsprozess umfasst …
+IT Management: IT-Prozesse IT-Projekte ;Grundlegende Aktivitäten und Artefakte
+IT Management: IT-Prozesse IT-Projekte ;IS-Entwicklungstätigkeiten im Detail
+IT Management: IT-Prozesse IT-Projekte ;Anforderungsanalyse
+IT Management: IT-Prozesse IT-Projekte ;Anforderungsanalyse (Requirements-Engineering)
+IT Management: IT-Prozesse IT-Projekte ;IS-Implementierung
+IT Management: IT-Prozesse IT-Projekte ;Testen von Informationssystemen
+IT Management: IT-Prozesse IT-Projekte ;Beispiele für Software-Fehler
+IT Management: IT-Prozesse IT-Projekte ;Testen: Arten des Softwaretests
+IT Management: IT-Prozesse IT-Projekte ;Testen: Testverfahren
+IT Management: IT-Prozesse IT-Projekte ;„Traditionelle“ Usability Tests
+IT Management: IT-Prozesse IT-Projekte ;Crowdsourcing in der Softwareentwicklung
+IT Management: IT-Prozesse IT-Projekte ;Einführungsphase
+IT Management: IT-Prozesse IT-Projekte ;Betriebs- und Wartungsphase
+IT Management: IT-Prozesse IT-Projekte ;Change-Management: Begriff
+IT Management: IT-Prozesse IT-Projekte ;Modelle für IS-Entwicklungsprozesse (Vorgehensmodelle)
+IT Management: IT-Prozesse IT-Projekte ;Sequentiell: Klassisches Wasserfallmodell
+IT Management: IT-Prozesse IT-Projekte ;Wasserfallmodell Vor- und Nachteile
+IT Management: IT-Prozesse IT-Projekte ;Iterative Modelle
+IT Management: IT-Prozesse IT-Projekte ;Iteratives Modell: Spiralmodell
+IT Management: IT-Prozesse IT-Projekte ;Iteratives Modell: Spiralmodell Vor- und Nachteile
+IT Management: IT-Prozesse IT-Projekte ;V-Modell
+IT Management: IT-Prozesse IT-Projekte ;V-Modell Vor- und Nachteile
+IT Management: IT-Prozesse IT-Projekte ;Agile Vorgehensmodelle
+IT Management: IT-Prozesse IT-Projekte ;Agile Manifesto
+IT Management: IT-Prozesse IT-Projekte ;Agile Methoden Vor- und Nachteile
+IT Management: IT-Prozesse IT-Projekte ;Agile Methoden: Scrum
+IT Management: IT-Prozesse IT-Projekte ;Agile Methoden: Scrum - Bestandteile
+IT Management: IT-Prozesse IT-Projekte ;Agile Methoden: Scrum – User Stories
+IT Management: IT-Prozesse IT-Projekte ;Agile Methoden: Scrum - Taskboard
+ERP: ERP Systeme ;Definition ERP
+ERP: ERP Systeme ;Transaktionen und Transaktionssysteme (Ergänzende Erklärung)
+ERP: ERP Systeme ;ERP
+ERP: ERP Systeme ;ERP: Integrierte Module – “Alles in einem System”
+ERP: ERP Systeme ;Warum ERP: Prozessintegration / -automatisierung
+ERP: ERP Systeme ;SAP: Lidl setzt auf SAP HANA
+ERP: ERP Systeme ;SAP bleibt Marktführer
+ERP: ERP Systeme ;SAP KundInnen – Eine kleine Auswahl...
+ERP: ERP Systeme ;Geschichtliche Entwicklung: Großrechner
+ERP: ERP Systeme ;Phasen der Integration betrieblicher IS
+ERP: ERP Systeme ;Benutzeroberfläche ERP-Systeme (früher: SAP R/2)
+ERP: ERP Systeme ;Benutzeroberfläche ERP-Systeme (früher: SAP R/3)
+ERP: ERP Systeme ;Benutzeroberfläche ERP-Systeme (früher)
+ERP: ERP Systeme ;Benutzeroberfläche ERP-Systeme (aktuell)
+ERP: ERP Systeme ;Sind ERP-Systeme bereit für das digitale Zeitalter?
+ERP: ERP Systeme ;SAP: Wie schafft ein integriertes Geschäftssystem die Grundlage für eine intelligentere Zukunft?
+ERP: ERP Systeme ;Stichwort Industrie 4.0
+ERP: ERP Systeme ;Die Produktion der Zukunft
+ERP: ERP Systeme ;Industrie 4.0: Wenn das Werkstück die Produktion steuert
+ERP: ERP Systeme ;Stichwort Digitaler Zwilling
+ERP: ERP Systeme ;Stichwort Augmented Reality („erweiterte Realität“)
+ERP: ERP Systeme ;IS-Management und strategische Planung
+ERP: ERP Systeme ;Strategische Softwareplanung
+ERP: ERP Systeme ;Standardsoftware und Individualsoftware
+ERP: ERP Systeme ;Vorteile Standardsoftware
+ERP: ERP Systeme ;Nachteile Standardsoftware
+ERP: ERP Systeme ;Software-as-a-Service
+ERP: ERP Systeme ;Open-Source-Software
+ERP: ERP Systeme ;Vor- und Nachteile von Open-Source-Software
+ERP: ERP Systeme ;TCO – Total Cost of Ownership
+ERP: ERP Systeme ;Kosten-Nutzen-Betrachtungen bei der Entscheidung für ein ERP-System
+ERP: ERP Systeme ;Einführung von ERP Systemen
+ERP: ERP Systeme ;Herausforderungen: Integration Einführungsstrategie
+ERP: ERP Systeme ;Fallbeispiel SAP-Projekt
+ERP: ERP Systeme ;Fallbeispiel SAP: ”Mit der SAP S/4HANA Cloud Buchungen zu 99 Prozent automatisieren“
+ERP: ERP Systeme ;Einführung von ERP Systemen Herausforderung: Customizing
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Definition: Kommunikation (nachrichtentechnische Perspektive)
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Syntax Semantik und Pragmatik (sprachwissenschaftliche Perspektive)
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Syntaktisch richtig? Semantisch richtig?
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Vier-Seiten-Modell (Schulz von Thun)
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Neue Formen der Arbeitsorganisation
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Klassifikation Kommunikations- und Kollaborationswerkzeuge
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Enterprise Collaboration Systems
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Medienreichhaltigkeitstheorie 
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;"Mediensynchronizitätstheorie
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Teamaufgaben und Medienwahl
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Neue „Affordances“ von Videokonferenzsystemen während der Corona-Krise
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Einschränkungen und Sorgen bei der Nutzung von Videokonferenzsystemen
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Gründe für Zoom-Fatigue
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Emoticons und Emojis: Ersatz für nonverbale Kommunikation?
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Emoticons im Arbeitskontext
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Mensch-Roboter Kommunikation und Interaktion
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;"""Algorithm-Aversion"""
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Kommunikation mit Robotern Systemen mit Künstlicher Intelligenz
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Agenda
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Smartphones haben unser Leben revolutioniert
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Assoziation von Smartphones und einem negativen Einfluss auf die Kognition
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Smartphones als digitale Erweiterung unseres Denkvermögens?
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Smartphone-Nutzung
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Denken wir auf Smartphones anders als am PC?
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Kognitive Effekte der Device Wahl
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Autonomie Paradoxon
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Internetsucht und Aufmerksamkeitsunterbrechungen
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;„Cyberloafing“
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Smartphones und kurzfristige Auswirkungen auf die Kognition: Abgelenktes Fahren und Gehen
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;„Phubbing”
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Smartphones und Langzeitauswirkungen auf die Kognition
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Going „offline“
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Agenda
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Der Online-Disinhibitions Effekt
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Der Online-Disinhibitions Effekt und Schummeln bei Online-Prüfungen
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Verbreitung von Fake News
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Strategien für den Umgang mit Fake News
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Social Media Nutzung und Wohlbefinden
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Emotionale Reaktionen auf Facebook-Inhalte
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Social Media als Auslöser von Neid
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;Die Anatomie des Neides auf Facebook
+Interaktion: Systeme zur Zusammenarbeit und Kommunikation;“Selbst-Erhöhung – Neidspirale”
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Auswirkungsbereiche des E-Business
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;E-Commerce: Klassifizierung nach AkteurInnen
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Online-Handel und ökonomische Auswirkungen des Internets auf den Handel
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Veränderungen der Wertschöpfungskette: Thesen zur Bedeutung der Intermediäre
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Intermediation: die Buchbranche
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Vertriebskanäle in der Buchbranche
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Buchbranche: E-Books
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Intermediation: Compact Disc – die Musikbranche Ende der 90er-Jahre
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Disintermediation: MP3 – die Musikbranche 2012
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Die Musikbranche heute
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Produktkategorien - (Digitale) Güter
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;„The Long Tail“ im E-Commerce
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Netzwerkeffekte
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Lock-In-Effekt
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Digitale Güter werden oft kostenlos angeboten
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Kostenpflichtige Premium-Angebote: Beispiel Spotify
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Abonnements für digitale Artikel: Beispiel Die Presse
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Internet als Vertriebskanal & Geschäftsmodell: Beispiel Der Spiegel
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Gewinne der „Internetgiganten“
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Google Ads (vormals Google AdWords)
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Klickverhalten auf Ergebnisseiten von Suchmaschinen
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Google AdSense
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Google Ads und AdSense
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Online-Geschäftsmodelle
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;B2C Geschäftsmodelltypen Content Commerce Context und Connection
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Plattform Revolution
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Warum sind Plattformen so erfolgreich? Theorie (Mehr-) Zweiseitiger Märkte
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Positive Netzwerkeffekte und das Wachstum von UBER
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Ein zweiseitiges Netzwerk hat vier Netzwerkeffekte
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;Preisgestaltung einer Plattform mit Netzwerkeffekten
+Digitale Geschäftsmodelle: Modelle Web 2.0 & Social Media & Klausurvorbereitung ;„Sharing Economy“
