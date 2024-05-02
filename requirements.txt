@@ -29,7 +29,6 @@ Flask-SQLAlchemy==3.1.1
 fpdf==1.7.2
 frozenlist==1.4.1
 fsspec==2024.2.0
-grpcio==1.62.1
 gunicorn==21.2.0
 h11==0.14.0
 hdfs==2.7.3
