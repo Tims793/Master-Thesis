@@ -1,39 +1,364 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Generate MCQ</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Fragegenerator für BIS Vorlesung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0d6efd;
+            text-align: center;
+        }
+        .form-group {
+            font-size: 18px; /* Größere Schrift für die Eingabe */
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .btn, .btn-primary, .btn-secondary {
+            background: linear-gradient(to bottom, #003c7b 0%, #00243e 100%); /* Farbverlauf von heller oben nach dunkler unten */
+            color: white;
+            border: none;
+            border-radius: 5px; /* Runde Ecken */
+            padding: 10px 20px; /* Größeres Padding für einen größeren Button */
+            font-size: 20px; /* Größere Schriftgröße */
+            font-weight: bold; /* Fette Schrift */
+            box-shadow: 0 0px #616161; /* Dunkler Schatten für 3D-Effekt */
+            letter-spacing: 1px; /* Buchstabenabstand */
+            transition: all 0.3s ease;
+            outline: none;
+            cursor: pointer;
+            display: block;
+            width: auto; /* Passt die Breite dem Inhalt an */
+            margin: 20px auto; /* Zentriert den Button horizontal */
+            text-align: center;
+        }
+        .btn:hover {
+            background: linear-gradient(to bottom, #002f51 0%, #00243e 100%);
+            box-shadow: 0 1px #616161;
+        }
+        
+        .btn:active {
+            background-color: #00243e; /* Noch dunkler beim Klicken */
+            box-shadow: 0 1px #616161; /* Flacherer Schatten beim Klicken */
+            transform: translateY(2px); /* Leichte Verschiebung nach unten beim Klicken */
+        }
+
+        .btn.btn-primary:disabled, .btn.btn-secondary:disabled {
+            color: #ccc;
+            background: #eee;
+            cursor: default; /* Ensure cursor does not change */
+            pointer-events: none; /* Disables hover and active states */
+        }
+ 
+        .plain-text {
+            white-space: pre-wrap;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .mt-5 {
+            margin-top: 40px; /* Größerer Abstand zum oberen Element */
+        }
+        .question-container {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .statement {
+            border: 1px solid rgb(196, 196, 196); /* Sets a grey border */
+            padding: 10px; /* Adds space inside the border */
+            margin-bottom: 10px; /* Adds space between statements */
+            border-radius: 10px;    /* Fügt abgerundete Ecken hinzu */
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Setzt den Abstand zwischen den Kind-Elementen auf maximal */
+            box-sizing: border-box; /* Stellt sicher, dass die Border-Änderung den Platz nicht beeinflusst */
+            transition: background-color 0.3s, border-color 0.3s; /* Weiche Übergänge für Hintergrund und Randfarbe */
+        }
+
+        .content {
+            display: flex;
+            align-items: center; /* Dies stellt sicher, dass Text und Checkbox vertikal zentriert sind */
+            flex: 1;
+            margin-right: 40px; /* Stellt sicher, dass der Text nicht bis ganz nach rechts läuft */
+        }
+
+        .statement:hover {
+            background-color: #ededed; /* Hintergrundfarbe beim Darüberfahren */
+            /*border-color: black; /* Schwarze Umrandung beim Darüberfahren */
+            padding: 10px; /* Angepasster Innenabstand */
+        }
+
+        .highlighted {
+            background-color: #ededed;
+            border-color: black; /* Schwarze Umrandung für hervorgehobene Aussagen */
+            border-width: 1px;
+            padding: 10px; /* Reduziert den Padding um 1px, um die Breite konstant zu halten */
+        }
+
+        .status-icon {
+            /* Zusätzliche Stilisierung für das Status-Symbol, falls nötig */
+            font-size: 10px;
+        }
+
+        .statement input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .statement label {
+            margin-bottom: 0; /* Entfernt den unteren Abstand von den Labels */
+            display: block; /* Erlaubt dem Label, die volle Breite des Flex-Containers einzunehmen */
+        }
+
+        .resolve-btn-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <h2>Generate Multiple Choice Question</h2>
-        <form action="/generate_question" method="post">
-            <div class="form-group">
-                <label for="question">Enter your topic to generate a question:</label>
-                <input type="text" class="form-control" id="question" name="question" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Generate</button>
-        </form>
+    <div class="container">
+        <h2>Fragegenerator für BIS Vorlesung</h2>
+        {% if not answer %}
+            <form action="/generate_question" method="post">
+                <label>Wähle ein oder mehrere Themen, zu denen Fragen generiert werden sollen:</label>
+                <div class="question-container">
+                    {% for lecture in lectures %}
+                        <div class="statement"> <!-- Reuse of 'statement' class for consistent styling -->
+                            <div class="content">
+                                <input type="checkbox" id="lecture-{{ loop.index }}" name="lecture[]" value="{{ lecture }}">
+                                <label for="lecture-{{ loop.index }}">{{ lecture }}</label>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <button type="submit" class="btn btn-primary">Generieren</button>
+            </form>
+        {% endif %}
 
         {% if answer %}
-            <div class="mt-5">
-                <h3>Generated Question:</h3>
-                <textarea class="form-control" rows="15" readonly>{{ answer }}</textarea>
+            <div style="flex-grow: 1; text-align: right;">
+                <form action="/get_feedback" method="post">
+                    <button id="endTestBtn" type="submit" class="btn-secondary">Test Beenden</button>
+                </form>
+            </div>
+            <div class="question-container">
+                <h3>{{ answer.Frage }}</h3>
+                {% for label, aussage in answer.Aussagen.items() %}
+                    <div class="statement">
+                        <div class="content">
+                            <input type="checkbox" id="statement-{{ label }}" name="statement" value="{{ label }}">
+                            <label for="statement-{{ label }}">{{ aussage }}</label>
+                        </div>
+                        <span class="status-icon"></span> <!-- Hinzugefügter Container für das Status-Symbol -->
+                    </div>
+                {% endfor %}
+                <div class="resolve-btn-container" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-grow: 1; text-align: center;">
+                        <button class="btn-secondary" onclick="resolveQuestion()">Auflösen</button>
+                    </div>
+                    <div style="flex-grow: 1; text-align: right;">
+                        <form action="/generate_question" method="post">
+                            <button id="nextQuestionBtn" type="submit" class="btn btn-primary" disabled>Neue Frage</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                <!-- Verstecktes div, um die korrekten Antworten zu speichern -->
+                <div id="correctAnswersData" data-correct-answers='{{ answer.Richtige_Antworten|tojson|safe }}' style="display:none;"></div>
+                <!-- Div für die Anzeige der Quellen -->
+                <div id="sourceDiv" style="display: none;">
+                    <h3>Quellen:</h3>
+                    <ul id="sourceList">
+                        {% for source in answer.Quellen %}
+                            <li>{{ source }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         {% endif %}
     </div>
-<script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            let textArea = document.querySelector('textarea');
-            let text = textArea.textContent;
 
-            // Entfernen der unerwünschten Zeichen am Anfang und Ende
-            text = text.replace(/^\s*{\s*'/, '').replace(/'\s*}\s*$/, '');
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
 
-            // Ersetzen der \n Zeichenfolgen durch echte Zeilenumbrüche
-            textArea.textContent = text.replace(/\\n/g, '\n');
+            const statements = document.querySelectorAll('.statement');
+            statements.forEach(statement => {
+                statement.addEventListener('click', function(event) {
+                    // Überprüfung, ob das Event von der Checkbox oder einem Label ausgelöst wird und ob die Checkbox bereits deaktiviert ist
+                    if (event.target.type !== 'checkbox' && event.target.tagName !== 'LABEL' && !statement.querySelector('input[type="checkbox"]').disabled) {
+                        const checkbox = statement.querySelector('input[type="checkbox"]');
+                        checkbox.checked = !checkbox.checked; // Umschalten des Status
+                        updateHighlight(statement, checkbox.checked);
+                    }
+                });
+                
+                // Um sicherzustellen, dass auch Klicks direkt auf das Label korrekt verarbeitet werden
+                const checkbox = statement.querySelector('input[type="checkbox"]');
+                const label = statement.querySelector('label');
+                [checkbox, label].forEach(element => {
+                    element.addEventListener('click', function(e) {
+                        e.stopPropagation(); // Stoppt das Bubbling des Events
+                        if (!checkbox.disabled) {
+                            setTimeout(() => updateHighlight(statement, checkbox.checked), 0); // Aktualisiert die Highlight-Klasse nach dem Event
+                        }
+                    });
+                });
+            });
+        
+            function updateHighlight(statement, isChecked) {
+                if (isChecked) {
+                    statement.classList.add('highlighted');
+                } else {
+                    statement.classList.remove('highlighted');
+                }
+            }
+
+            const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+            
+
+            // Function to check button status
+            function checkButtonStatus() {
+                // console.log("Checking button status...");  // Log when the function starts
+                fetch('/check-button-status')
+                    .then(response => {
+                        // console.log("Received response:", response);  // Log the response object
+                        return response.json();
+                    })
+                    .then(data => {
+                        // console.log("Parsed JSON data:", data);  // Log the parsed data
+                        if (data.button_enabled) {
+                            // console.log("Button is enabled");  // Log when the button is enabled
+                            nextQuestionBtn.disabled = false;
+                        } else {
+                            // console.log("Button is disabled");  // Log when the button is disabled
+                            nextQuestionBtn.disabled = true;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching button status:', error);  // Log any errors that occur
+                    });
+            }
+            
+            // Set interval to check button status every 1 seconds
+            setInterval(checkButtonStatus, 1000);
+
+            nextQuestionBtn.addEventListener('click', function() {
+                var studentAnswers = [];
+                var studentAnswersText = [];
+                var correctAnswersText = [];
+                var correctAnswersDataElement = document.getElementById('correctAnswersData');
+                var correctAnswers = JSON.parse(correctAnswersDataElement.getAttribute('data-correct-answers'));
+        
+                // Collect student responses
+                const statements = document.querySelectorAll('.statement');
+                statements.forEach(statement => {
+                    const checkbox = statement.querySelector('input[type="checkbox"]');
+                    const statementText = statement.querySelector('label').textContent;
+                    if (checkbox.checked) {  // Only add if the checkbox is checked
+                        studentAnswers.push(checkbox.value);
+                    }
+                    // Add text if the checkbox is checked
+                    if (checkbox.checked) {
+                        studentAnswersText.push(statementText);
+                    }
+                    // Check if this statement's label is in the correct answers and add its text
+                    if (correctAnswers.includes(checkbox.value)) {
+                        correctAnswersText.push(statementText);
+                    }
+
+                });
+        
+                // Prepare data to send
+                const postData = {
+                    student_answer: studentAnswers,
+                    correct_answer: correctAnswers,
+                    student_answer_texts: studentAnswersText,
+                    correct_answer_texts: correctAnswersText
+                };
+        
+                // POST request to submit answers
+                fetch('/submit_result', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(postData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server Response:', data);
+                    // Optionally handle next steps after posting data
+                })
+                .catch(error => console.error('Error posting answers:', error));
+            });
+
         });
-</script>
+        
+        function resolveQuestion() {
+            // Liste der richtigen Antworten vom Backend (Beispielwerte)
+            var correctAnswersDataElement = document.getElementById('correctAnswersData');
+            var correctAnswers = JSON.parse(correctAnswersDataElement.getAttribute('data-correct-answers'));
+            
+            // Alle Checkboxen im Formular durchgehen
+            const statements = document.querySelectorAll('.statement');
+            statements.forEach(statement => {
+                const checkbox = statement.querySelector('input[type="checkbox"]');
+                const label = statement.querySelector('label');
+                const statusIcon = statement.querySelector('.status-icon'); // Zugriff auf das Status-Icon
+        
+                // Überprüfen, ob die aktuelle Aussage richtig oder falsch ist
+                const isCorrect = correctAnswers.includes(checkbox.value);
+                const isChecked = checkbox.checked;
+                // console.log(`Label: ${checkbox.value}, isCorrect: ${isCorrect}, isChecked: ${isChecked}`);
+                
+                // Anpassung der Anzeige basierend auf Korrektheit und Auswahl
+                if (isCorrect && isChecked) {
+                    label.style.color = 'green';
+                    label.style.fontWeight = 'bold';
+                    statusIcon.textContent = '✔️';
+                    statusIcon.style.color = 'green';
+                } else if (!isCorrect && !isChecked) {
+                    label.style.color = 'grey';
+                    statusIcon.textContent = '✔️';
+                    statusIcon.style.color = 'green';
+                } else if (isCorrect && !isChecked) {
+                    label.style.color = 'green';
+                    label.style.fontWeight = 'bold';
+                    statusIcon.textContent = '❌';
+                    statusIcon.style.color = 'red';
+                } else if (!isCorrect && isChecked) {
+                    label.style.color = 'grey';
+                    statusIcon.textContent = '❌';
+                    statusIcon.style.color = 'red';
+                }
+        
+                // Deaktivieren der Checkbox nach dem Auflösen
+                checkbox.disabled = true;
+            });
+        
+            // Quellendiv einblenden
+            document.getElementById('sourceDiv').style.display = 'block';
+        }
+        
+    </script>
 </body>
 </html>
