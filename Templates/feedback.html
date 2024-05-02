@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0d6efd;
+            text-align: center;
+        }
+        .btn, .btn-primary {
+            background: linear-gradient(to bottom, #003c7b 0%, #00243e 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            outline: none;
+            cursor: pointer;
+            display: block;
+            width: auto;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .btn:hover {
+            background: linear-gradient(to bottom, #002f51 0%, #00243e 100%);
+            box-shadow: 0 1px #616161;
+        }
+        .btn:active {
+            background-color: #00243e;
+            box-shadow: 0 1px #616161;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback zu Ihrem Test</h1>
+        <p>{{ feedback }}</p>
+        <a href="/" class="btn btn-primary">Zurück zur Startseite</a>
+    </div>
+</body>
+</html>
